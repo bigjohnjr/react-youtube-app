@@ -6,7 +6,7 @@ import SearchBar from './components/SearchBar';
 import VideoList from './components/VideoList';
 import VideoDetail from './components/VideoDetail';
 import './index.css';
-const API_KEY = 'AIzaSyB-IjPRS2c9yUYAfmFB3keYb7pQCoxDW9c';
+const API_KEY = 'AIzaSyB9FHOUJMBcXFwVKINOlyxz_4dsMAFMp20';
 
 class App extends Component {
   constructor(props) {
@@ -43,4 +43,4 @@ class App extends Component {
   }
 }
 
-ReactDOM.render(<App />, document.querySelector('.container'));
+ReactDOM.render(<App />, document.querySelector('#root'));
